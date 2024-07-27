@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "paths": {},
+    "target": "es2016" /* 출력되는 JavaScript의 언어 버전을 설정하고 호환되는 라이브러리 선언을 포함합니다. */,
+    "module": "commonjs" /* 생성되는 모듈 코드를 지정합니다. */,
+    "esModuleInterop": true /* CommonJS 모듈을 임포트할 때의 지원을 용이하게 하기 위해 추가 JavaScript를 출력합니다. 이는 타입 호환성을 위해 'allowSyntheticDefaultImports'를 활성화합니다. */,
+    "forceConsistentCasingInFileNames": true /* 임포트할 때 대소문자가 일관되도록 보장합니다. */,
+    "strict": true /* 모든 엄격한 타입 검사 옵션을 활성화합니다. */,
+    "jsx": "react-jsx",
+    "skipLibCheck": true /* 모든 .d.ts 파일의 타입 검사를 건너뜁니다. */
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
