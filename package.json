@@ -40,6 +40,12 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
+    "@cornerstonejs/calculate-suv": "^1.1.0",
+    "@cornerstonejs/core": "^1.83.1",
+    "@cornerstonejs/dicom-image-loader": "^1.83.1",
+    "dcmjs": "^0.33.0",
+    "dicom-parser": "^1.8.21",
+    "dicomweb-client": "^0.10.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
